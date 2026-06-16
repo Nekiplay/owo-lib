@@ -1,6 +1,7 @@
 package io.wispforest.owo.compat.rei;
+import me.shedaniel.rei.api.client.plugins.REIClientPlugin;
 
-public class OwoReiPlugin /*implements REIClientPlugin*/ {
+public class OwoReiPlugin implements REIClientPlugin {
 
 //    @SuppressWarnings("UnstableApiUsage")
 //    private static @Nullable OverlayRendererProvider.Sink renderSink = null;

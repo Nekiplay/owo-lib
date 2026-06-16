@@ -129,9 +129,9 @@ dependencies {
 //    compileOnly("me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:${project.rei_version}") {
 //        exclude "group": "net.fabricmc.fabric-api"
 //    }
-//    compileOnly("me.shedaniel:RoughlyEnoughItems-api-fabric:${project.rei_version}") {
-//        exclude "group": "net.fabricmc.fabric-api"
-//    }
+   compileOnly("me.shedaniel:RoughlyEnoughItems-api-fabric:${project.rei_version}") {
+       exclude "group": "net.fabricmc.fabric-api"
+   }
 
     compileOnly("dev.emi:emi-fabric:${project.emi_version}") {
         exclude "group": "net.fabricmc.fabric-api"
